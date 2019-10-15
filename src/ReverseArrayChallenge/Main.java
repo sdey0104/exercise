@@ -19,7 +19,7 @@ public class Main {
     }
 
     public static void reverse(int[] array) {
-
+        System.out.println(Arrays.toString(array));
         int [] arrayToBeReversed = array;
         int maxIndex = arrayToBeReversed.length-1;
         int halfIndex = maxIndex/2;
